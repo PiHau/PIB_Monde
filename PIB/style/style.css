@@ -1,0 +1,152 @@
+/* Style général pour le corps de la page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: darkgrey; 
+  font-family: 'Garamond', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Ajusté pour prendre toute la hauteur disponible */
+  margin: 0 20px; /* Ajoute une marge latérale de 20px */
+}
+
+.left-container, .graph-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.left-container {
+  width: 250px; /* Largeur fixe pour le conteneur gauche */
+  margin-right: 20px;
+}
+
+.sidebar, .info-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+#map {
+  flex-grow: 1; /* La carte prend le reste de l'espace disponible */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-top: 5%;
+}
+
+.map-title {
+  position: absolute;
+  top: 20px; /* Ajustez cette valeur en fonction de vos besoins */
+  left: 35%; /* Centrer le titre horizontalement */
+  transform: translateX(-50%); /* Ajustement fin pour centrer le titre */
+  color: #fff; /* Couleur du texte */
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour une meilleure visibilité */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.graph-container {
+  width: 30%; /* Largeur fixe pour les conteneurs de graphes */
+  height: 100%; /* Hauteur fixe augmentée pour les conteneurs de graphes */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10px;
+  margin-right: 20px; /* Ajoute une marge à droite de 20px */
+}
+.info-box {
+  flex: 2;
+  background-color: #f0f0f0;
+  text-align: justify;
+}
+.graph {
+  flex-grow: 1;
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 15px; /* Ajoute une marge de 15px en haut, en bas, à gauche et à droite */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: scale(0.9); /* Réduit la taille du graphique de 10% */
+  transform-origin: center; /* Centre la transformation de l'échelle */
+}
+
+#graph1 {
+  height: 30%; /* Augmente la hauteur pour le graphique du haut */
+  background-color: #fff; /* Ajoute un fond blanc */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajoute une ombre pour correspondre au style */
+  margin-top: 5px; /* Ajoute un écart de 5px sous le container graph2 */
+  padding: 10px; /* Ajoute une marge interne de 10px */
+}
+
+#graph1 svg {
+  width: 100%;
+  height: 100%;
+}
+
+#graph2 {
+  height: 20%; /* Réduit la hauteur pour le conteneur des stickmen */
+  padding: 15px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#graph2 div {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+#graph2 div div {
+  flex-basis: 8%; /* Limite à 12 stickmen par ligne */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#graph2 svg {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle; /* Alignement vertical */
+}
+
+#graph2 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px; /* Aligner avec la hauteur du stickman */
+}
+/* Style pour la popup */
+.popup {
+  position: absolute;
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  display: none;
+  z-index: 10;
+}
+.small-text {
+  color: #333; /* Assurez-vous que cette couleur est la même que celle que vous souhaitez pour tout le texte. */
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.data-source {
+  font-size: 10px; /* Taille de la police ajustée */
+  color: black; /* Gris clair */
+  text-align: left; /* Alignement à gauche */
+  padding-top: 10px; /* Espace au-dessus pour la séparation */
+}
