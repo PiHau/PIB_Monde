@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="sidebar">
+                <h2 class="title">Inégalités Économiques Dans Le Monde</h2>
+            </div>
+            <div class="info-box">
+                <h3>Le Produit Intérieur Brut (PIB)</h3>
+                <p class="small-text"><em>Passez la souris sur les pays pour obtenir des informations.</em></p>
+                <p class="small-text">Le Produit Intérieur Brut (PIB) est la somme de la valeur totale des biens et services produits dans un pays sur une année, souvent utilisée pour mesurer la performance économique d'une nation. Le PIB par habitant, ajusté en fonction de la population, offre une perspective plus précise de la situation économique individuelle et permet de mieux comprendre les niveaux de vie.</p>
+                <p class="data-source">Source des données : <a href="https://www.worldbank.org" target="_blank">World Bank official boundaries, World Bank GDP, World Bank Population, OSM</a><br> Auteur: Pierre Hauptmann</p>
+            </div>
+            
+        </div>
+        <div id="map">
+            <h3 class="map-title">PIB par habitant dans le monde [$]</h3>
+        </div>
+        <div class="graph-container">
+            <div class="graph" id="graph2">
+                <h5>PIB par habitant en Suisse vs d'autres pays</h5>
+            </div>
+            <div class="graph" id="graph1">
+                <h5>PIB brut par pays (1991-2022)</h5>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup"></div>
+    <script src="script/map1.js"></script>
+</body>
+</html>
