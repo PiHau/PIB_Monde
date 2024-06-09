@@ -24,7 +24,7 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
     ```
 2. Accédez au répertoire du projet :
     ```bash
-    cd nom-du-repo
+    cd PIB_Monde.git
     ```
 3. Ouvrez le fichier `index.html` dans votre navigateur.
 
