@@ -27,7 +27,7 @@
 - [Stack Overflow](https://stackoverflow.com/) : Idéal pour obtenir des réponses à des problèmes spécifiques de programmation.
 - [Reddit - r/d3js](https://www.reddit.com/r/d3js/) : Un "subreddit" dédié à D3.js où les utilisateurs partagent des projets, des conseils, et des astuces.
 
-## Assistance à l'aide de l'intelligence artificielle, quand les autres ressources ne suffisaient pas
+## Intelligence artificielle, quand les autres ressources ne suffisaient pas
 - [ChatGPT by OpenAI](https://www.openai.com/chatgpt) : Explications de concepts ou même des suggestions de code. En particulier pour le SVG que connais très mal et pour le "débogage"/ identification des erreurs.
 
 
