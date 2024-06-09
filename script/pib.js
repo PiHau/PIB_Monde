@@ -17,14 +17,6 @@ Promise.all([
 
     const path = d3.geoPath().projection(projection);
 
-    const filteredData = {
-        type: "FeatureCollection",
-        features: worldData.features.filter(feature => {
-            const lat = d3.geoCentroid(feature)[1];
-            return lat >= -65 && lat <= 85;
-        })
-    };
-
     const indicatorName = '2012_pib_hab'; // Indicateur fixe pour la démo
     const values = mapIndicators.map(d => d[indicatorName]).filter(v => v != null && v > 0);
     const maxVal = Math.max(...values);
@@ -52,7 +44,7 @@ Promise.all([
 
     svg.call(drag);
 
-    // Ajouter un cercle  derrière la sphère pour eviter le blanc sur blanc
+    // Ajouter un cercle derrière la sphère pour éviter le blanc sur blanc
     svg.append('circle')
         .attr('cx', projection.translate()[0])
         .attr('cy', projection.translate()[1])
@@ -63,7 +55,7 @@ Promise.all([
         .attr('stroke-width', 0.5);
 
     svg.selectAll("path")
-        .data(filteredData.features)
+        .data(worldData.features)
         .enter().append("path")
         .attr("d", path)
         .attr("fill", d => {
@@ -174,7 +166,8 @@ Promise.all([
     function updateComparison(countryPibHab, suissePibHab, countryName) {
         const comparisonContainer = d3.select('#graph2');
         comparisonContainer.html('<h5>PIB par habitant en Suisse vs ' + countryName + '</h5>');
-// Aide de chatGPT pour toute la partie SVG que je ne connaissais pas du tout...
+        // Aide de chatGPT pour toute la partie SVG que je ne connaissais pas du tout...
+        // Prompt : Aide moi à dessiner un stickman en SVG, en expliquant le code de façon à ce que je puisse le comprendre et le modifier selon mes besoins
         const suisseStickman = `
             <svg width="12" height="24" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
               <circle cx="50" cy="20" r="20" fill="red"/>
@@ -185,7 +178,7 @@ Promise.all([
               <line x1="50" y1="90" x2="70" y2="130" stroke="red" stroke-width="10"/>
             </svg>
         `;
-
+        // Sur les bases de SVG que chatGTP m'a appris
         const suisseFlag = `
             <svg width="12" height="12" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
               <rect width="100" height="100" fill="#D52B1E"/>
@@ -227,7 +220,7 @@ Promise.all([
         equalSign.style.alignItems = 'center';
         comparisonDiv.appendChild(equalSign);
 
-// Eviter le surchargement lié a des valeurs très différentes entre la Suisse et les autres pays
+        // Eviter le surchargement lié a des valeurs très différentes entre la Suisse et les autres pays
         if (numStickmen > 45) {
             const stickmanContainer = document.createElement('div');
             stickmanContainer.innerHTML = darkslateblueStickman;
@@ -310,4 +303,4 @@ Promise.all([
         .style('font-size', '12px')
         .style('text-anchor', 'middle')
         .text('PIB/habitant [$]');
-})
+});
