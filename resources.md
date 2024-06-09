@@ -23,7 +23,7 @@
 - [TopoJSON Wiki](https://github.com/topojson/topojson/wiki) : Documentation et exemples pour utiliser TopoJSON, essentiel pour manipuler des données géographiques.
 - [Crossfilter.js](http://crossfilter.github.io/crossfilter/) : Bibliothèque JavaScript pour explorer de grandes multivariétés de données.
 
-## Forums et communautés
+## Forums et communautés, de loin ma plus grande ressource pour ce travail
 - [Stack Overflow](https://stackoverflow.com/) : Idéal pour obtenir des réponses à des problèmes spécifiques de programmation.
 - [Reddit - r/d3js](https://www.reddit.com/r/d3js/) : Un "subreddit" dédié à D3.js où les utilisateurs partagent des projets, des conseils, et des astuces.
 
