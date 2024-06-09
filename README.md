@@ -7,13 +7,15 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 ### Fonctionnalités
 
 - **Carte interactive** : Permet une vision d'ensemble et identifie de manière parlante les valeurs extrêmes tout en facilitant la comparaison avec d'autres pays.
-- **Graphique des stickmen** : Représente de manière visuelle et compréhensible les richesses dans le monde à notre échelle.
+
+- **Graphique des stickmen** : Représente de manière visuelle et compréhensible les richesses dans le monde à notre échelle (Suisse).
+
 - **Graphique du PIB de 1991 à 2022** : Visualise les valeurs totales du PIB, permettant d'identifier les périodes de crise d'un pays. Avec des connaissances générales et des ressources externes, il est facile d'interpréter les variations de la courbe.
 
 ## Capture d'écran
 
-![Capture d'écran](./image.png)
-
+ ![Capture d'écran](img/screenshot1.png)
+ 
 ## Installation et Lancement
 
 1. Clonez ce dépôt sur votre machine locale :
