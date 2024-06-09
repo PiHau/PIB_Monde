@@ -1,5 +1,4 @@
-# Ressources pour l'apprentissage et le développement
-
+# Ressources 
 ## Général
 - Conaissances générales apprises dans le cadre du master "ASSC" (Analyse Spatiale et Systèmes Complexes)
 - Conaissances antiérieures au master
