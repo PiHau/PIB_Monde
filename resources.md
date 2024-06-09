@@ -1,4 +1,9 @@
-# Ressources 
+# Données
+- [Banque Mondiale](https://www.banquemondiale.org/fr/home) : Les données de PIB et de Population sont exclusivement issues de la Banque Mondiale, qui est un fournisseur de données fiable pour des données vastes (à l'échelle mondiales ou continentale)
+- Les polygones sont aussi issus de la Banque Mondiale, mais ont visiblement été mis à disposition par OpenStreetMap (OSM).
+- Les fichiers de données étaient au format .csv et le fichier de polygones au format .shp, ils ont été convertis en JSON à l'aide de Python.
+  
+# Ressources "techniques"
 ## Général
 - Conaissances générales apprises dans le cadre du master "ASSC" (Analyse Spatiale et Systèmes Complexes)
 - Conaissances antiérieures au master
