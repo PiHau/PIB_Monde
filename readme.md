@@ -35,9 +35,8 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 
  **les scripts (en plus de pib.js et style.css) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://d3js.org/topojson.v3.min.js"></script>
-
+https://d3js.org/d3.v6.min.js
+https://d3js.org/topojson.v3.min.js
 
 
 ## Contexte de Développement
