@@ -26,14 +26,14 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
     ```bash
     cd PIB_Monde.git
     ```
-3. Ouvrez le fichier `index.html` dans votre navigateur.
+3. Ouvrez le fichier `index.html` dans votre navigateur. nb: Il sera certainement nécessaire d'ouvrir un serveur local pour passer la sécurité de votre navigateur.
 
 ## Modules, Librairies et Scripts
 
 - **D3.js** : Utilisé pour la création de graphiques dynamiques et interactifs.
 - **TopoJSON** : Utilisé pour la manipulation de données géographiques.
 
- **les scripts nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
+ **les scripts (en plus de pib.js) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
 
 
 ## Contexte de Développement
