@@ -14,7 +14,7 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 
 ## Capture d'écran
 
- ![Capture d'écran](./image.png)
+ ![Capture d'écran](img/screenshot1.png)
  
 ## Installation et Lancement
 
