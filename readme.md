@@ -38,15 +38,12 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 
 ## Contexte de Développement
 
-Ce projet a été développé dans le cadre du cours visualisation de données dispensé par Isaac Pante (SLI, Lettres, UNIL).
+Ce projet a été développé dans le cadre du cours visualisation de données dispensé par Isaac Pante (SLI, Lettres, UNIL). Pendant le semestre de printemps 2024.
 
 ## Structure du Répertoire
 
-- `index.html` : Fichier principal de la page web.
-- `style/` : dossier qui contient les fichiers CSS.
+- `index.html` : Fichier principal de la page interactive.
+- `style/` : dossier qui contient les fichiers CSS (`style.css`).
 - `img/` : dossier qui contient les images utilisées dans le projet.
-- `scripts/` : dossier qui contient les fichiers JavaScript (`map1.js`).
+- `scripts/` : dossier qui contient les fichiers JavaScript (`pib.js`).
 
-## Limites et Améliorations
-
-Veuillez consulter la section "Issues" de ce dépôt pour voir les limites actuelles du projet et les possibilités d'amélioration. Chaque issue est assortie des étiquettes adéquates (bug, enhancement, etc.).
