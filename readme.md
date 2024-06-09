@@ -1,4 +1,4 @@
-# Inégalités Économiques Dans Le Monde
+# Inégalités économiques dans le monde
 
 ## Description
 
@@ -22,18 +22,15 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
     ```bash
     git clone https://github.com/PiHau/PIB_Monde.git
     ```
-2. Accédez au répertoire du projet :
-    ```bash
-    cd PIB_Monde.git
-    ```
-3. Ouvrez le fichier `index.html` dans votre navigateur. nb: Il sera certainement nécessaire d'ouvrir un serveur local pour passer la sécurité de votre navigateur.
+
+2. Ouvrez le fichier `index.html` dans votre navigateur. nb: Il sera certainement nécessaire d'ouvrir un serveur local pour passer la sécurité de votre navigateur.
 
 ## Modules, Librairies et Scripts
 
 - **D3.js** : Utilisé pour la création de graphiques dynamiques et interactifs.
 - **TopoJSON** : Utilisé pour la manipulation de données géographiques.
 
- **les scripts (en plus de pib.js et style.css) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
+ **les scripts (en plus de pib.js et style.css) nécessaires au bon fonctionnement de la page sont appelés via leur lien dans le fichier `index.html`**
 
 - https://d3js.org/d3.v6.min.js
 - https://d3js.org/topojson.v3.min.js
@@ -49,4 +46,5 @@ Ce projet a été développé dans le cadre du cours visualisation de données d
 - `style/` : dossier qui contient les fichiers CSS (`style.css`).
 - `img/` : dossier qui contient les images utilisées dans le projet.
 - `scripts/` : dossier qui contient les fichiers JavaScript (`pib.js`).
+- `resources/` : Ressources utilisées
 
