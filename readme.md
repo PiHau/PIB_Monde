@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet propose une visualisation des inégalités économiques mondiales en utilisant différents indicateurs économiques tels que le PIB par habitant et le PIB brut. L'objectif principal est de sensibiliser les citoyens suisses à la réalité des inégalités économiques mondiales, souvent ignorées.
+Ce projet propose une visualisation des inégalités économiques mondiales en utilisant différents indicateurs économiques tels que le PIB par habitant et le PIB brut. L'objectif principal est de sensibiliser les citoyens suisses à la réalité des inégalités économiques mondiales, souvent atténuées dans notre inconscient.
 
 ### Fonctionnalités
 
@@ -34,6 +34,10 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 - **TopoJSON** : Utilisé pour la manipulation de données géographiques.
 
  **les scripts (en plus de pib.js et style.css) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+
 
 
 ## Contexte de Développement
