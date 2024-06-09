@@ -33,7 +33,7 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 - **D3.js** : Utilisé pour la création de graphiques dynamiques et interactifs.
 - **TopoJSON** : Utilisé pour la manipulation de données géographiques.
 
- **les scripts (en plus de pib.js) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
+ **les scripts (en plus de pib.js et style.css) nécessaires au bon fonctionnement de la page sont inclus dans le fichier `index.html`**
 
 
 ## Contexte de Développement
