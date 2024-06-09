@@ -30,4 +30,8 @@
 ## Intelligence artificielle, quand les autres ressources ne suffisaient pas
 - [ChatGPT by OpenAI](https://www.openai.com/chatgpt) : Explications de concepts ou même des suggestions de code. En particulier pour le SVG que connais très mal et pour le "débogage"/ identification des erreurs.
 
+## Wikipedia
+- ([https://www.wikipedia.com/GDP](https://en.wikipedia.org/wiki/Gross_domestic_product#:~:text=Gross%20Domestic%20Product%20(GDP)%20is,of%20a%20country%20or%20region.) : Utilisé pour le texte concernant les indicateurs et pour ma compréhension personnelle.
+
+
 
