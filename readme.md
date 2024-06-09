@@ -6,11 +6,11 @@ Ce projet propose une visualisation des inégalités économiques mondiales en u
 
 ### Fonctionnalités
 
-- **Carte interactive** : Permet une vision d'ensemble et identifie de manière parlante les valeurs extrêmes tout en facilitant la comparaison avec d'autres pays.
+- **Carte interactive** : La carte interactive est la composante principale de mes visualisations, permettant aux utilisateurs de voir rapidement les disparités économiques à l'échelle mondiale. Grâce à l'utilisation de la bibliothèque D3.js, la carte présente les données du PIB par habitant de chaque pays en coloration graduelle, reflétant des valeurs allant de faibles à élevées. Cette représentation facilite l'identification des pays avec les niveaux de PIB extrêmes – très hauts ou très bas – et permet une comparaison visuelle entre les nations. Les utilisateurs peuvent survoler chaque pays pour obtenir des détails spécifiques.
+  
+- **Graphique des stickmen** : Le graphique des stickmen est une méthode parlante pour représenter les inégalités économiques à l'individu suisse moyen. Chaque stickman représente une portion du PIB par habitant de la Suisse comparée à celle d'autres pays, transformant des données économiques (chiffres) en visualisations simples et accessibles. Cette approche permet aux utilisateurs de percevoir visuellement et de comprendre rapidement l'étendue des inégalités de richesse entre la Suisse et le pays sélectionné.
 
-- **Graphique des stickmen** : Représente de manière visuelle et compréhensible les richesses dans le monde à notre échelle (Suisse).
-
-- **Graphique du PIB de 1991 à 2022** : Visualise les valeurs totales du PIB, permettant d'identifier les périodes de crise d'un pays. Avec des connaissances générales et des ressources externes, il est facile d'interpréter les variations de la courbe.
+- **Graphique du PIB de 1991 à 2022** : Ce graphique linéaire illustre l'évolution du PIB total de chaque pays de 1991 à 2022, fournissant un aperçu historique des situations économiques au fil des décennies. Les utilisateurs peuvent voir les fluctuations économiques, y compris les périodes de croissance rapide ou de récession, ce qui aide à contextualiser les effets des événements mondiaux tels que les crises financières, les changements politiques majeurs, les guerres ou les génocides sur les économies nationales.
 
 ## Capture d'écran
 
